@@ -6,7 +6,7 @@ function Contactus(){
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
     const [message, setMessage] = useState('');
-    const [attach, setAttach] = useState('');
+    const [attach, setAttach] = useState(null);
 
 
 
@@ -28,10 +28,10 @@ function Contactus(){
 
     return <div>
             <input type="text" placeholder="Enter Name" value={name} onChange={(e)=>setName(e.target.value)}/>
-            <textarea placeholder="Enter Message" value={message} onChange={(e)=> setMessage(e.target.message)} />
+            <textarea placeholder="Enter Message" value={message} onChange={(e)=> setMessage(e.target.value)} />
             <input type="text" placeholder="Enter Email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
             <input type="text" placeholder="Enter Phone Number" value={phone} onChange={(e)=>setPhone(e.target.value)}/>
-            <input type="file" value={attach} onChange={(e)=>setAttach(e.target.files[0])}/>
+            {/* <input type="file" value={attach} onChange={(e)=>setAttach(e.target.files[0])}/> */}
             <button onClick={()=>{
                handleSubmit()
             }}>Submit</button>

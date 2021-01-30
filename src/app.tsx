@@ -2,7 +2,7 @@ import React from "react";
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-import './styles/global.scss';
+import './index.scss';
 
 function App() {
   return <div>

@@ -1,20 +1,25 @@
 import React from 'react';
+import {ReactComponent as Facebook} from "assets/icons/facebook.svg";
+import {ReactComponent as LinkedIn} from "assets/icons/LinkedIn.svg";
+import {ReactComponent as Whatsapp} from "assets/icons/whatsapp.svg";
 
 function Footer(){
-    return <div className="footer">
+    return  <div className="footer">
         <div className="social">
             <div className="icons">
-                <div></div>
-                <div></div>
-                <div></div>
+            <div><Facebook/></div>
+                <div><Whatsapp/></div>
+                <div><LinkedIn/></div>
             </div>
             <div className="email">
                 hey@devissh.com
             </div>
         </div>
         <div className="lower">
-            <div><span>(c)</span> 2021 Devissh</div>
-            <div>Terms and Conditions</div>
+            <div className="copyright">
+                <div><span>(c)</span> 2021 Devissh</div>
+                <div>Terms and Conditions</div>
+            </div>
         </div>
     </div>;
 }

@@ -3,13 +3,13 @@ import React from 'react';
 function Header(){
     return <div className="header">
         <div className="logo">
-            <div className="icon"></div>
-            <div className="name">Devissh</div>
+            <div className="icon"><img src="./logo.png" /></div>
+            <div className="ic_name">Devissh</div>
         </div>
         <div className="navlist">
-            <div>Blogs</div>
-            <div>Services</div>
-            <div>Contact</div>
+            <div className="item">Blogs</div>
+            <div className="item">Services</div>
+            <div className="item">Contact</div>
         </div>
     </div>;
 }

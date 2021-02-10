@@ -1,0 +1,40 @@
+.banner{
+    display: flex;
+
+
+    .left{
+
+        flex: 2;
+        font-family: Rosario;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        letter-spacing: 0em;
+        
+        margin: auto 60px;
+
+        .quotes{
+
+            .quote-head{
+                font-size: 36px;
+                line-height: 44px;
+            }
+
+            .quote-body{
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
+    }
+    .right{
+        flex: 2;
+
+        .saly-img{
+            background-image: url("../../../assets/images/Saly-10.png");
+            height:auto;
+            background-size: contain;
+            height:500px;
+            background-repeat: no-repeat;
+        }
+    }
+}

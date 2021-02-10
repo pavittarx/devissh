@@ -1,0 +1,43 @@
+.Contact{
+    display: flex;
+    margin: auto 30px;
+
+    .left{
+        flex: 2;
+        font-family: Rosario;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        letter-spacing: 0em;
+        
+        margin: auto 60px;
+
+        .quotes{
+
+            .quote-head{
+                font-size: 36px;
+                line-height: 44px;
+            }
+
+            .quote-body{
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
+
+        .phone{
+            display: flex;
+
+            .ph-num{
+                margin-left:20px;
+                font-size: 22px;
+                line-height: 26px;
+            }
+        }
+    }
+
+    .right{
+        margin: auto 30px;
+        flex:2;
+    }
+}

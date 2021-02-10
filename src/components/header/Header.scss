@@ -1,0 +1,46 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+    padding: 0 10px;
+    align-items:center;
+  
+    .logo{
+        display:flex;
+        align-items:center;
+  
+        .icon{
+            padding:0 0 0 20px;
+            margin-right:10px;
+        }
+  
+        .ic_name{
+            font-size:27px;
+            font-family: Rosario, sans-serif;
+            font-weight:400;
+            color: #E03528E6;
+        }
+    }
+  
+    .navlist{
+        display:flex;
+        justify-content:space-between;
+  
+        .item{
+            font-family: Rosario, sans-serif;
+            margin-right:30px;
+            font-size:20px;
+            font-weight:400;
+            color:#192EC9E6;
+
+            a{
+                text-decoration: none;
+
+                &:hover{
+                    background: #192EC96e;
+                    padding:10px 5px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+  }

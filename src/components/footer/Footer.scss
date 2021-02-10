@@ -1,0 +1,44 @@
+.footer{
+    padding:10px 0px 0px 0px;
+
+    .illus{
+        background: url("../../assets/illustrations/undraw_Faq_re_31cw\ 1.png");
+        height:auto;
+        background-position: center;
+        background-size: contain;
+        height:350px;
+        background-repeat: no-repeat;
+        margin:10px auto;
+    }
+
+    .social{
+        margin:0 auto;
+        max-width:150px;
+  
+        .icons{
+            display:flex;
+  
+            div{
+                padding:5px 10px;
+            }
+        }
+        .email{
+            color:#777777C2;
+            font-size:18px;
+        }
+    }
+  
+    .lower{
+        background-color:#192EC9D9;
+        width:100%;
+        
+        .copyright{
+            padding:0 10px;
+            color: #FFFFFF;
+            max-width:500px;
+            display:flex;
+            justify-content:space-between;
+        }
+    }
+  }
+  

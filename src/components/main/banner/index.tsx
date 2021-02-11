@@ -1,4 +1,6 @@
 import React from 'react';
+import FlexContainer from "utils/flex-container"
+import Button from "utils/button";
 import {ReactComponent as Email} from "assets/icons/mail.svg";
 import {ReactComponent as Phone} from "assets/icons/phone.svg";
 import './Banner.scss';
@@ -11,23 +13,21 @@ function Banner(){
                We do it for you,<br/>so you don’t have to.
                </div>
                <div className="quote-body">
-               We build websites. apps and market them for you.
+               We build websites. apps and <br/>market them for you.
                </div>
-               <button className="btn">Hire us </button>
+               <Button>Hire us </Button>
            </div>
        </div>
        <div className="right">
-           <div className="saly-img">
            <div className="contact-details">
-               <div className="flx">
+               <FlexContainer>
                    <Email/>
                    <div className="val">hey@devissh.com</div>
-               </div>
-               <div className="flx">
+               </FlexContainer>
+               <FlexContainer>
                    <Phone/>
                    <div className="val">9012090000</div>
-               </div>
-           </div>
+               </FlexContainer>
            </div>
        </div>
     </div>;

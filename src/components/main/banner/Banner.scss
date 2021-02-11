@@ -4,14 +4,14 @@
 
     .left{
 
-        flex: 2;
+        flex: 1;
         font-family: Rosario;
         font-style: normal;
         font-weight: 400;
         text-align: left;
         letter-spacing: 0em;
         
-        margin: auto 60px;
+        margin: auto 0px;
 
         .quotes{
 
@@ -21,20 +21,31 @@
             }
 
             .quote-body{
+                margin:20px 0;
                 font-size: 24px;
                 line-height: 29px;
             }
         }
     }
     .right{
-        flex: 2;
+        flex: 1;
+        margin: auto 0px;
+        background-image: url("../../../assets/images/Saly-10.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height:500px;
+        position: relative;
+        
 
-        .saly-img{
-            background-image: url("../../../assets/images/Saly-10.png");
-            height:auto;
-            background-size: contain;
-            height:500px;
-            background-repeat: no-repeat;
+        .contact-details{
+            position: absolute;
+            top:30px;
+            font-family: Rosario;
+            font-style: normal;
+            font-weight: 400;
+            text-align: left;
+
         }
     }
 }

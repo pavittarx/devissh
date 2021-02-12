@@ -1,0 +1,53 @@
+.Services{
+    margin-top: -30px;
+    padding: 6rem 0 4rem 0;
+    .Quote{
+        flex:1;
+
+        .head{
+            font-size: 36px;
+        }
+
+        .title{
+            margin-top:15px;
+            color: #192EC9ce;
+            font-size: 22px;
+            line-height: 26px;
+        }
+
+        .body{
+            margin-top:8px;
+            font-size: 18px;
+        }
+    }
+
+    .building_web{
+        flex:1;
+        background: url("../../../assets/illustrations/website_development_illustration.svg");
+        background-position: center;
+        background-size: contain;
+        height:250px;
+        background-repeat: no-repeat;
+        margin:10px auto;
+    }
+
+    .mobile_app{
+        flex:1;
+        background: url("../../../assets/illustrations/undraw_Mobile_app_re_catg\ 1.png");
+        background-position: center;
+        background-size: contain;
+        height:250px;
+        background-repeat: no-repeat;
+        margin:10px auto;
+    }
+
+    .social_network{
+        flex:1;
+        background: url("../../../assets/illustrations/undraw_Social_networking_re_i1ex\ 1.png");
+        background-position: center;
+        background-size: contain;
+        height:250px;
+        background-repeat: no-repeat;
+        margin:10px auto;
+    }
+}

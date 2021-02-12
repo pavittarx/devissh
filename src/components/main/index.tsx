@@ -1,8 +1,17 @@
 import React from "react";
-import {ReactComponent as WebDevIllustration} from "assets/illustrations/website_development_illustration.svg";
+import Container from "utils/container";
+import Banner from "./banner";
+import Services from "./services";
 
 const Main = () => {
-  return <> <WebDevIllustration /> </>;
+  return <> 
+    <Container >
+      <Banner/>
+    </Container>
+    <Container backcolor="#192EC90D">
+      <Services/>
+    </Container>   
+  </>;
 }
 
 export default Main;

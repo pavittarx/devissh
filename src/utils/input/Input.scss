@@ -1,0 +1,25 @@
+.InContainer{
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+    .Area{
+
+        input{
+            height: 72px;
+            width: 408px;
+            font-size: 22px;
+            padding:0px 10px;
+            outline: none;
+            border:1px solid #222222;
+            margin-bottom: 15px;
+        }
+    }
+
+    .icon{
+
+    }
+}

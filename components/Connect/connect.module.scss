@@ -1,0 +1,22 @@
+.connect-ctr {
+
+  display: flex;
+
+
+  .connect-form-ctr {
+    flex: 1;
+
+    max-width: 70vw;
+
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+
+  .contact-info{
+    flex: 1;
+  }
+
+  @media (max-width: 500px){
+    flex-direction: column;
+  }
+}

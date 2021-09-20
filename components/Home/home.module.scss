@@ -1,0 +1,31 @@
+.banner-ctr {
+  // background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+
+  padding-top: 20vh;
+
+  padding-inline: 50px;
+
+  min-height: 80vh;
+
+  .company-name {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--primary);
+  }
+
+  @media (max-width: 500px) {
+    margin: 0 auto;
+
+    .company-name {
+      align-self: flex-start;
+    }
+
+    .button-ctr {
+      align-self: flex-start;
+    }
+  }
+}
